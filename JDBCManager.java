@@ -22,7 +22,7 @@ public class JDBCManager
 	{	
 		try
 		{
-		connection = DriverManager.getConnection(DBURL,"root","root");
+		connection = DriverManager.getConnection(DBURL,"root","pranav63");
 		statement = connection.createStatement();
 		}
 		catch(SQLException sqlException)
